@@ -1,32 +1,3 @@
-/*comentario*/
-section p {
-  
-    color: blue;
-    
-}
-
-aside p {
-  
-    color: red;
-    
-}
-
-h1,h2,h3 {
-    
-    font-family: cursive; 
-    
-    
-}
-
-
-.aviso {
-    
-    background-color: red;
-    color: yellow;
-    
-    
-}
-
 tr:nth-child(odd){
     
     background-color: #964fcc;
@@ -49,19 +20,13 @@ thead tr {
 nav a {
     
     text-decoration: none;
-    background-color: green;
+    
     color: white;
     
     
 }
 
-nav a:hover {
-    
-    background-color: red;
-    color: yellow;
-    
-    
-}
+
 
 
 body {
@@ -73,10 +38,10 @@ body {
 }
 
 
-header {
+.header {
     
     position: fixed;
-    background-color: blue;
+    background-color: #076af0;
     top: 0;
     
     left: 0;
@@ -85,6 +50,54 @@ header {
    
 }
 
+
+.logo {
+    
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height:  90px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-link {
+    
+    color: white;
+    text-decoration: none
+     
+}
+
+.nav-menu {
+    
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+
+.nav-menu-item{
+    
+    font-size: 18px;
+    margin: 0 10px;
+    line-height:  90px;
+}
+
+.nav-menu-link {
+    
+    
+    
+    
+    
+}
+
+.nav-menu-link:hover {
+  background-color: #024070;
+  
+}
 
 aside {
     
